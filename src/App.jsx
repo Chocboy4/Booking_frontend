@@ -15,7 +15,7 @@ import BookingsPage from './pages/BookingsPage';
 import BookingPage from './pages/BookingPage';
 
 // Set Axios defaults
-axios.defaults.baseURL = 'http://localhost:4000/';
+axios.defaults.baseURL = 'https://0a6d-105-113-85-36.ngrok-free.app/';
 axios.defaults.withCredentials = true; // Enable sending cookies
 
 function App() {
