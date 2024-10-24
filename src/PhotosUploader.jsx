@@ -8,7 +8,7 @@ export default function PhotosUploader({ addedPhotos, onChange }) {
   async function addPhotoByLink(ev) {
     ev.preventDefault();
     try {
-      const { data: filename } = await axios.post('/upload-by-link', { link: photoLink });
+      const { data: filename } = await axios.post('/api/upload-by-link', { link: photoLink });
       onChange(prev => [...prev, filename]);
       setPhotoLink('');  // Reset input after successful upload
     } catch (error) {

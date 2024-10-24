@@ -7,7 +7,7 @@
         className = 'object-cover'
     }
     return (
-            <img className={className} src={'http://localhost:4000/uploads/'+place.photos[index]} alt="" />
+            <img className={className} src={'http://localhost:4000/api/uploads/'+place.photos[index]} alt="" />
 
     )
  }
