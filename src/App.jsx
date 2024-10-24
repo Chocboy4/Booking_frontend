@@ -15,7 +15,7 @@ import BookingsPage from './pages/BookingsPage';
 import BookingPage from './pages/BookingPage';
 
 // Set Axios defaults
-axios.defaults.baseURL = 'https://booking-backend-lake.vercel.app/?vercelToolbarCode=cBclw9emGkYL1-s/api';
+axios.defaults.baseURL = 'http://localhost:4000';
 axios.defaults.withCredentials = true; // Enable sending cookies
 
 function App() {
